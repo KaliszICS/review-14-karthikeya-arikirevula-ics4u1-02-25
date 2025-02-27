@@ -416,7 +416,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "a", "b", "c");
          assertEquals(result, "a");
@@ -435,7 +435,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "a", "c", "b");
          assertEquals(result, "a");
@@ -454,7 +454,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "b", "a", "c");
          assertEquals(result, "a");
@@ -473,7 +473,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "c", "a", "b");
          assertEquals(result, "a");
@@ -492,7 +492,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "b", "c", "a");
          assertEquals(result, "a");
@@ -511,7 +511,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "c", "b", "a");
          assertEquals(result, "a");
@@ -530,7 +530,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "az", "ba", "cd");
          assertEquals(result, "az");
@@ -549,7 +549,7 @@ public class PracticeProblemTest {
       Class<?> testClass = PracticeProblem.class;
       try {
          Class[] cArg = { String.class, String.class, String.class };
-         Method method = testClass.getDeclaredMethod("totalWordsChecker", cArg);
+         Method method = testClass.getDeclaredMethod("minString", cArg);
          // Enter code here
          String result = (String)method.invoke(null, "Zoo", "bear", "cat");
          assertEquals(result, "bear");
